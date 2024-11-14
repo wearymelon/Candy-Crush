@@ -137,6 +137,7 @@ namespace CandyCrush
         {
             DrawGrid(spriteBatch, Texture, candySize.X, 9, new Color(255 / 3, 117 / 3, 24 / 3, 128));
 
+
             for (int i = 0; i < candies.GetLength(0); i++)
             {
                 for (int j = 0; j < candies.GetLength(1); j++)
@@ -350,6 +351,8 @@ namespace CandyCrush
 
             //MAKE PARTICLES EXPLODE FROM EACH PIECE INDIVIDUALLY THAT'S IN A ROW (3, 4, 5)!!!
 
+
+            //when you crush a candy, reset the opacity to zero on the particles
 
 
             for (int i = 0; i < longerStreak; i++)
